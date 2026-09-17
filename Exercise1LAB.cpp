@@ -46,7 +46,7 @@ void init()
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitWindowSize(600, 600);
-    glutCreateWindow("Ex10 - Triangle Strip (GL_TRIANGLE_STRIP)");
+    glutCreateWindow("Machine Problem 01: Stippled Star Frame (GL_LINE_LOOP)");
     glutDisplayFunc(display);
     glutMainLoop();
     return 0;
