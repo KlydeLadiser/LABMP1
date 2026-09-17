@@ -20,9 +20,9 @@ void display()
 
         if(i % 2 == 0)
         {
-            glColor3f(1.0f, 0.0f, 0.7f); // magenta
+            glColor3f(1.0f, 1.0f, 0.0f); // green
         } else {
-            glColor3f(1.0f, 1.0f, 0.0f); // yello       
+            glColor3f(1.0f, 0.0f, 0.0f); // red      
         }
 
         glVertex2f(x, y);
