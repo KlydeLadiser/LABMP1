@@ -10,11 +10,11 @@ void display()
     // yellow
     glColor3f(1.0f, 1.0f, 0.0f);
     glLineWidth(3.0f);
-    glEnable(GL_LINE_STRIPPLE);
-    glLineStripple(2, 0x0F0F);
+    glEnable(GL_LINE_STIPPLE);
+    glLineStipple(2, 0x0F0F);
 
 
-    glBegin(GL_TRIANGLE_LOOP);
+    glBegin(GL_LINES_LOOP);
     
         glVertex2f(0.0f, 0.8f); 
         glVertex2f(0.18f, 0.25f);
@@ -29,7 +29,7 @@ void display()
 
     glEnd();
 
-    glDisable(GL_LINE_STRIPPLE);
+    glDisable(GL_LINE_STIPPLE);
 
     glFlush();
 }
